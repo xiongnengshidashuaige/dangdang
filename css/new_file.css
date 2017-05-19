@@ -1,0 +1,721 @@
+.top-box{
+	margin-bottom: 183px;
+}
+/*头部*/
+.nav{
+	width: 100%;
+	height: 35px;
+	background: #f9f9f9;
+}
+/**/
+
+/*头部地址*/
+.nav1{
+	width: 1180px;
+	height: 100%;
+	margin: auto;
+	position:relative;
+	z-index: 1;
+}
+.nav1 span{
+	margin-top: 10px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.nav1 .hred:hover{
+	color:red;
+	cursor: pointer;
+}
+.nav1 .hred{
+	border-right: 1px solid #e6e6e6;
+	padding-right: 10px;
+}
+/**/
+
+/*头部导航*/
+.center-box{
+	display: inline-block;
+	margin-left:20px;
+}
+.nav1 .red{
+	color: red;
+	cursor: pointer;
+	overflow:hidden ;
+}
+.nav1 .greet{
+	margin-left:300px;
+}
+.fr{
+	float: right;
+}
+.nav1 .fl:hover{
+	background:white;
+	border: 1px solid gainsboro;
+	border-bottom: 0;
+	margin: 0;
+}
+.nav1 li a:hover{
+	color: red;
+}
+.nav1 li:hover{
+	color: red;
+}
+.nav1 .fr li{
+	padding:0 10px;
+	border-right: 1px solid #e6e6e6;
+	height: 16px;
+	font-size: 12px;
+	float: left;
+	margin-top:9.5px;
+	cursor: pointer;
+}
+.nav1 .fl{
+	margin: 0;
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+	height: 30px;
+	border: 1px solid #f9f9f9;
+	background:#f9f9f9 ;
+}
+#site #site-box{
+	border: 1px solid gainsboro;
+	width: 310px;
+	height: 215px;
+	position: absolute;
+	top: 30px;
+	display: none;
+	background: white;
+}
+#site #site-box li{
+	float: left;
+	padding:5px 0 0 10px;
+	text-align:left;
+	width: 48px;
+	line-height: 26px;
+	font-size: 12px;
+}
+#site{
+	display: inline-block;
+	background: white;
+}
+
+#site #site-box a:hover{
+	color: red;
+}
+/**/
+
+.red{
+	color: red;
+}
+/**/
+
+/*搜索栏*/
+.logo{
+	width: 1200px;
+	margin: auto;
+}
+.logo-box{
+	position: relative;
+}
+.text{
+	width: 398px;
+	height: 38px;
+	border: 2px solid red;
+}
+.text-box{
+	position: absolute;
+	top:20px;
+	left: 750px;
+}
+.select{
+	height:39px;
+	width:105px;
+	border: 0;
+	background:#F6F6F6 ;
+	margin-top: 2px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 2px;
+}
+.opt{
+	background: white;
+}
+.serch{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background: red;
+	top: 0;
+	border: 2px solid red;
+	right:-50px;
+}
+.serch .iconfont{
+	color: white;
+	font-size: 25px;
+	padding-left: 10px;
+	font-weight: bolder;
+	display: inline-block;
+	padding-top: 5px;
+}
+.cart{
+	position: absolute;
+	width:110px;
+	height: 40px;
+	background: red;
+	top: 0;
+	border: 2px solid red;
+	right:-200px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	cursor: pointer;
+}
+.order{
+	position: absolute;
+	width:85px;
+	height: 40px;
+	background:#F6F6F6 ;
+	top: 0;
+	border: 2px solid #DCDCDC;
+	right:-283px;
+	text-align: center;
+	line-height: 40px;
+	color:black;
+	cursor: pointer;
+}
+.logo .nav{
+	position: absolute;
+	display: inline-block;
+	top: 65px;
+	left: 750px;
+	width: 480px;
+	background: white;
+}
+.logo .nav li{
+	float: left;
+	padding-right: 30px;
+}
+.logo .nav a{
+	font-size: 12px;
+	color: #969696;
+}
+.logo .nav a:hover{
+	color: red;
+	text-decoration:underline;
+}
+/**/
+
+/*三级导航*/
+.botm-box{
+	width: 1200px;
+	margin-left: 360px;
+}
+.sm-comty{
+	display: inline-block;
+}
+.sm-comty li{
+	display: inline-block;
+	padding: 10px;
+}
+.comty{
+	display: inline-block;
+	height: 45px;
+	width: 200px;
+	background: red;
+	cursor: pointer;
+}
+.comty a{
+	color: white;
+	font-weight: bolder;
+	margin-right:56px;
+	margin-left: 20px;
+	line-height: 40px;
+}
+.comty a:hover{
+	color: white;
+}
+.comty .iconfont{
+	color: white;
+}
+.botm{
+	border-bottom: 3px solid red;
+	margin-top: 100px;
+	width: 100%;
+	position: absolute;
+}
+.sm-comty a{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.sm-comty a:hover{
+	color:red;
+	cursor: pointer;
+}
+/**/
+
+/*四级导航*/
+.subnav{
+	position: absolute;
+	background: #F5F5F5;
+	width: 100%;
+	top: 185px;
+}
+.subnav li{
+	display: inline-block;
+}
+.subnav ul{
+	height: 32px;
+	margin-left:360px ;
+}
+.subnav li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.subnav li a{
+	display: inline-block;
+	border-right: 1px solid #e6e6e6;
+	font-size: 12px;
+	padding: 0 15px;
+	margin-top:10px;
+	height: 12px;
+	text-align: center;
+}
+/**/
+
+/*二层版心*/
+.box1{
+	margin: auto;
+	position: relative;
+	height: 485px;
+	width: 1200px;
+}
+/**/
+
+/*左侧商品导航*/
+.box1 .ullf a{
+	font-size: 12px;
+	padding: 5px;
+	border: 2px solid #FAFAFA;
+	display: inline-block;
+	height: 16px;
+}
+.box1 .ullf{
+	background: #FAFAFA;
+	height: 100%;
+	width: 200px;
+}
+.box1 .ullf a:hover{
+	font-size: 15px;
+	width:185px;
+	text-decoration: underline;
+	color: red;
+	background: white;
+	border: 2px solid red;
+}
+/**/
+
+/*轮播图*/
+.img{
+	width: 796px;
+	height: 326px;
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+/**/
+
+/*轮播图下方图片*/
+.ulbot{
+	position: absolute;
+	width: 800px ;
+	height: 157px;
+	bottom:3px;
+	left: 200px;
+}
+.ulbot li{
+	border-right: 1px solid gainsboro;
+	width:198px;
+	height: 155px;
+	float: left;
+}
+/**/
+
+/*右侧公告*/
+.frbox{
+	height:100% ;
+	width:203px ;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 1px solid gainsboro;
+	
+}
+a:hover{
+	color: red;
+}
+.frbox li{
+	padding: 4px;
+	font-size: 14px;
+}
+.frbox span{
+	padding: 5px 17px;
+}
+.frbox span:hover{
+	background-color:gainsboro;
+	cursor: pointer;
+}
+.center{
+	border: 1px solid gainsboro;
+	border-right: 0;
+}
+/**/
+
+/*秒杀时间*/
+.time{
+	height: 80px;
+	width: 1200px;
+	margin: auto;
+}
+.time ul{
+	float: right;
+}
+.time li{
+	float: left;
+	margin-top: 46px;
+	margin-right:50px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.mgrt{
+	margin-right: 100px;
+}
+.time .ms{
+	margin-top: 40px;
+}
+.time a:hover{
+	border-bottom: 2px solid red;
+	padding-bottom: 5px;
+}
+.time .red:hover{
+	border: 0;
+}
+/**/
+
+/*秒杀商品栏*/
+.seckill{
+	/*border: 1px solid black;*/
+	width: 1240px;
+	height: 460px;
+	margin: auto;
+}
+.products li{
+	border-right: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	width: 205px;
+	height: 228px;
+	float: left;
+	text-align: center;
+}
+.products img{
+	padding-top: 10px;
+}
+.products .sm-img{
+	padding: 0;
+	border-top: 1px solid gainsboro;
+	height: 110px;
+	width: 100%;
+}
+.products .top-brdr-red{
+	border-top: 2px solid red;
+}
+.products .top-brdr{
+	border-top: 2px solid black;
+}
+.products .lf-brdr{
+	border-left:1px solid gainsboro;
+}
+.progress-bar{
+	width:150px;
+	height: 8px;
+	background-color:#FFB7B7;
+	border-radius: 8px;
+	margin: auto;
+	position: relative;
+}
+.progress-bar .empty{
+	width: 9%;
+	height: 8px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	border-radius: 8px;
+}
+.progress-bar .percent{
+	position: absolute;
+	background-color:#FE8D91 ;
+	color: white;
+	border-radius: 8px;
+	padding:3px;
+	left: 30%;
+	top: -8px;
+	font-size: 12px;
+}
+.products h5{
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	margin-top:5px;
+}
+.products h5:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.rate{
+	color: red;
+	font-size: 14px;
+	float: left;
+	padding: 8px 3px 6px 10px;
+}
+.original-cost{
+	color: #969696;
+	font-size: 14px;
+	display: inline-block;
+	padding-top: 8px;
+	text-decoration:line-through;
+	margin-left:-80px;
+}
+/**/
+
+/*儿童专场*/
+.children{
+	width: 1240px;
+	height: 70px;
+	margin: auto;
+	box-sizing: border-box;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.children-box{
+	/*border: 1px solid black;*/
+	width: 1240px;
+	height: 340px;
+	margin: auto;
+}
+.children-box .sm-box{
+	/*border: 1px solid black;*/
+	width: 410px;
+	height:100%;
+	float: left;
+}
+.children-box .sm-box li{
+	border: 1px solid gainsboro;
+	width: 203px;
+	height: 170px;
+	float: left;
+}
+.children-box .box2 img{
+	width: 410px;
+	height:345px;
+}
+/**/
+
+/*图书专场*/
+.book-box{
+	/*border: 1px solid black;*/
+	width: 1240px;
+	height: 500px;
+	margin: auto;
+	margin-top: 40px;
+}
+.book-box .navigation{
+	border-bottom: 2px solid black;
+	width: 910px;
+	height: 44px;
+}
+.book-box .navigation .fl li{
+	float: left;
+	line-height: 44px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.book-box .navigation .fr li{
+	float:left;
+	line-height: 44px;
+	border: 1px solid gainsboro;
+	width: 114px;
+	height: 42px;
+	text-align: center;
+	background-color: #F5F5F5;
+	border-bottom: 0;
+}
+.book-box .navigation .fr li:hover{
+	background-color: white;
+	border: 2px solid black;
+	font-weight: bold;
+	border-bottom: 0;
+	height: 44px;
+}
+.book-box .book{
+	/*border: 1px solid gainsboro;*/
+	width: 910px;
+	height: 440px;
+	margin-top: 10px;
+	float: left;
+}
+.book-box .book .book1{
+	height:100%;
+	border: 1px solid gainsboro;
+	float: left;
+}
+.book .fl{
+	width: 240px;
+}
+/**/
+/*图书中*/
+.book .center{
+	width: 332px;
+	border: 0;
+}
+.book .fr{
+	width: 332px;
+}
+.book-box .book-frbox{
+	border: 1px solid gainsboro;
+	width: 310px;
+	height: 100%;
+	float: right;
+	margin-top: -46px;
+}
+.book .fl .flimg{
+	height: 330px;
+	width: 100%;
+}
+.book .fl  li{
+	float: left;
+	width: 76px;
+	line-height: 25px;
+	font-size: 12px;
+}
+.book .fl ul{
+	overflow: hidden;
+	margin-left: 12px;
+}
+.book .fl  li:hover{
+	text-decoration: underline;
+}
+.book .center ul,.book .fr ul
+{
+	border-left: 1px solid gainsboro;
+	width: 165px;
+	height:216px;
+	float: left;
+}
+.book .center .nobr{
+	border: 0;
+}
+.book .center li{
+	text-align: center;
+}
+.book .center ul h5,.book .fr ul h5
+{
+	margin-left: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+	margin-top:5px;
+}
+.book .center ul h5:hover,.book .fr ul h5:hover
+{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.book .center .original-cost,.book .fr .original-cost
+{
+	margin-left:5px;
+}
+.book .fr ul{
+	border-bottom: 1px solid gainsboro;
+	margin-top: 5px;
+	border-left: 0;
+	border-right: 1px solid gainsboro;
+}
+.book .fr .nobt{
+	border-bottom: 0;
+}
+.book .fr li{
+	text-align: center;
+}
+/**/
+/*图书右菜单*/
+.book-box .book-frbox .fl,.book-box .book-frbox .norg
+{
+	display: inline-block;
+	border-right: 1px solid gainsboro;
+	width: 154px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	float: left;
+
+}
+.book-box .book-frbox .norg{
+	border: 0;
+}
+.book-box .book-frbox .greet{
+	background:#F5F5F5  ;
+	overflow: hidden;
+}
+.book-box .book-frbox span:hover{
+	background-color: white;
+	text-decoration: underline;
+}
+.book-box .book-frbox ul span{
+	padding: 12px 20px 20px 20px;
+	background-color: white;
+}
+.book-box .book-frbox li{
+	font-size: 14px;
+	height: 44.5px;
+	line-height: 44.5px;
+	border-bottom: 1px solid gainsboro;
+}
+/**/
+
+/*服装导航*/
+.clbox .clothing{
+	width: 1240px;
+}
+.clbox{
+	height: 635px;
+}
+.clbox .clothing-img{
+	border: 1px solid gainsboro;
+	width: 1240px;
+	height: 575px;
+	margin-top: 10px;
+}
+.clothing-img .flmenu{
+	border-right: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+	width: 248px;
+	height:520px;
+	float: left;
+	overflow: hidden;
+}
+.clothing-img .fr-top-menu{
+	border-bottom: 1px solid gainsboro;
+	width: 990px;
+	height: 340px;
+	float: right;
+}
+.clothing-img .fr-bottom-menu{
+	border-bottom: 1px solid gainsboro;
+	width: 990px;
+	height:180px;
+	float: right;
+}
