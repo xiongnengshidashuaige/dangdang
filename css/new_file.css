@@ -710,12 +710,59 @@ a:hover{
 .clothing-img .fr-top-menu{
 	border-bottom: 1px solid gainsboro;
 	width: 990px;
-	height: 340px;
+	height: 306px;
 	float: right;
+	overflow: hidden;
 }
 .clothing-img .fr-bottom-menu{
 	border-bottom: 1px solid gainsboro;
 	width: 990px;
-	height:180px;
+	height:214px;
 	float: right;
+}
+.clothing-img .flmenu .flimg{
+	width: 100%;
+	height: 320px;
+}
+.clothing-img .fr-top-menu .slide-show{
+	border: 0;
+	height:306px;
+	width: 395px;
+	float: left;
+}
+.clothing-img .fr-top-menu li{
+	border-left: 1px solid gainsboro;
+	height:306px;
+	width:197px;
+	float: left;
+}
+.clothing-img .fr-bottom-menu li{
+	border-left:1px solid gainsboro ;
+	width:197px ;
+	height:216px;
+	float: left;
+}
+.clothing-img .flmenu li{
+	float: left;
+	width: 76px;
+	line-height: 33px;
+	font-size: 12px;
+}
+.clothing-img .flmenu ul{
+	overflow: hidden;
+	margin-left: 12px;
+}
+.clothing-img .flmenu li:hover{
+	text-decoration: underline;
+}
+.slide-show img{
+	width: 100%;
+}
+.clothing-img .fr-bottom-menu .no-left-border{
+	border: 0;
+}
+.logoimg li{
+	height: 50px;
+	width: 122px;
+	float: left;
 }
