@@ -1,3 +1,29 @@
+/*l领券中心右侧*/
+.fixed{
+	width: 35px;
+	height: 305px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	background: #474747;
+}
+.fixed img{
+	width: 100%;
+}
+.fixed .iconfont{
+	display: inline-block;
+	color: white;
+	font-size: 23px;
+	padding: 2px 5px;
+}
+.fixed .iconfont:hover{
+	background: red;
+	width: 100%;
+}
+
+/**/
+
 .top-box{
 	margin-bottom: 183px;
 }
@@ -158,6 +184,7 @@
 	font-weight: bolder;
 	display: inline-block;
 	padding-top: 5px;
+	cursor: pointer;
 }
 .cart{
 	position: absolute;
@@ -499,6 +526,10 @@ a:hover{
 	padding-top: 30px;
 	font-weight: bold;
 }
+.children:hover{
+	color: red;
+	cursor: pointer;
+}
 .children-box{
 	/*border: 1px solid black;*/
 	width: 1240px;
@@ -765,4 +796,375 @@ a:hover{
 	height: 50px;
 	width: 122px;
 	float: left;
+}
+/**/
+
+/*日用百货*/
+.general-merchandise{
+	/*border: 1px solid black;*/
+	width: 1240px;
+	height: 460px;
+	margin: auto;
+}
+.general-merchandise .lf li{
+	float: left;
+}
+.general-merchandise h2{
+	/*border: 1px solid black;*/
+	position: relative;
+}
+.general-merchandise .lf{
+	position: absolute;
+	top: 30px;
+	left:160px;
+}
+.general-merchandise .lf a{
+	margin: 0 10px;
+	font-size: 20px;
+}
+.general-merchandise .lf a span{
+	font-size: 14px;
+	padding-left: 5px;
+	font-weight:normal;
+}
+.border{
+	border: 1px solid gainsboro;
+	overflow: hidden;
+	width: 1228px;
+	margin-top: 4px;
+	border-top: 0;
+	margin-bottom: 20px;
+}
+/**/
+
+/*创意文具*/ 
+.stationery{
+	margin: auto;
+	width: 1260px;
+	height: 180px;
+	margin-top: -20px;
+	position: relative;
+}
+.stationery h2{
+	padding-top: 0px;
+}
+.stationery li{
+	border: 1px solid gainsboro;
+	width: 230px;
+	height: 150px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 8px;
+}
+.stationery ul{
+	float: left;
+	position: absolute;
+	top: 42px;
+}
+/**/
+
+/*婴儿专场*/
+.baby{
+	margin: auto;
+	width: 1240px;
+	height: 500px;
+	margin-top: 20px;
+}
+.baby .topnav{
+	width: 100%;
+	height: 50px;
+}
+.baby .topnav li{
+	float: left;
+	line-height: 50px;
+	padding-right: 15px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+.baby .topnav .max{
+	font-size: 25px;
+}
+.baby-img .flbox{
+	height: 388px;
+	width: 230px;
+}
+.baby-img .flbox li{
+	border: 1px solid gainsboro;
+	height: 50%;
+	width: 100%;
+	border-top: 0;
+}
+.baby-img .centerbox li{
+	border: 1px solid gainsboro;
+	width: 333px;
+	height: 390px;
+	position: absolute;
+	top:0;
+	left: 230px;
+	border-left: 0;
+}
+.baby-img .centerbox img{
+	width:100%;
+	height: 100%;
+}
+.baby-img{
+	position: relative;
+}
+.baby-img .frbox{
+	float: right;
+	width:675px;
+	height: 388px;
+	border: 0;
+}
+.baby-img .frbox li{
+	border: 1px solid gainsboro;
+	height:187px;
+	width: 213px;
+	float: left;
+	border-top: 0;
+	border-left: 0;
+}
+.baby-img ul .top{
+	border-top: 1px solid gainsboro;
+}
+/**/
+
+/*闪购*/
+.vips{
+	width: 1240px;
+	height:560px;
+	margin: auto;
+	margin-top: 20px;
+}
+.vips .navimg{
+	width: 100%;
+	height: 50px;
+}
+.vips li{
+	border: 1px solid gainsboro;
+	width: 203px;
+	height:253px;
+	float: left;
+}
+.vips .forbox{
+	background: #F9F9F9;
+	border-top: 0;
+}
+.vips .forbox p{
+	border: 1px solid gainsboro;
+	float: left;
+	width:100px;
+	height: 125px;
+	border-right: 0;
+	border-bottom: 0;
+}
+.vips .forbox img{
+	position:relative;
+	top: 30%;
+	left: 10%;
+}
+.vips .navimg .frnav{
+	float: right;
+	line-height: 50px;
+	margin-right: 15px;
+	color:#FA5C98;
+}
+.vips .navimg .frnav:hover{
+	text-decoration: underline;
+}
+.vips ul .smimg{
+	height: 100%;
+}
+/**/
+
+/*猜你喜欢*/
+.like{
+	width: 1240px;
+	margin: auto;
+	margin-top: 30px;
+}
+.like .explain{
+	border-bottom: 2px solid red;
+	margin-right: 10PX;
+}
+.like .explain h2{
+	color: red;
+	font-weight: bolder;
+}
+.like .stack{
+	border: 1px solid gainsboro;
+	width: 1230px;
+	margin-top: 10px;
+	height:2770px;
+	overflow: hidden;
+}
+.like .stack li{
+	float: left;
+	width: 199px;
+	height:270px;
+	border: 2px solid white;
+	
+}
+.like .stack li:hover{
+	border: 2px solid gainsboro;
+}
+.like .stack ul{
+	margin: 10px 5px;
+}
+.like .stack li img{
+	width: 100%;
+	height: 70%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.like .stack a p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	color:gray;
+}
+.like .stack a p:hover{
+	text-decoration: underline;
+	color: red;
+}
+.like .stack a h4{
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.like .stack .advert{
+	float: right;
+	border: 1px solid gainsboro;
+	font-size: 12px;
+	color: gainsboro;
+	line-height: 18px;
+}
+/**/
+
+/*底部导航*/
+.footernav{
+	width: 100%;
+	height: 80px;
+		border-top: 2px solid red;
+		margin-top: 50px;
+		border-bottom: 1px solid gainsboro;
+		background:#FAFAFA;
+}
+.footernav li{
+	float: left;
+	margin-right:100px;
+}
+.footernav ul{
+	width:1000px;
+	margin: auto;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.footernav ul li .one1{
+	display: block;
+	width: 136px;
+	height: 53px;
+	background:url(../img/img1/footer_bg.png) no-repeat;
+	}
+	.footernav ul li .one2{
+	display: block;
+	width: 136px;
+	height: 53px;
+	background:url(../img/img1/footer_bg.png) no-repeat 0 -50px;
+
+	}
+	.footernav ul li .one3{
+	display: block;
+	width: 136px;
+	height: 53px;
+	background:url(../img/img1/footer_bg.png) no-repeat 0 -102px;
+
+	}
+	.footernav ul li .one4{
+	display: block;
+	width: 136px;
+	height: 53px;
+	background:url(../img/img1/footer_bg.png) no-repeat 0 -156px;
+
+	}
+	.footernav ul{
+		
+	}
+/**/
+
+/*指南*/
+.guide{
+	width:1000px;
+	height: 170px;
+	margin: auto;
+}
+.guide div{
+	float: left;
+	width: 154px;
+	margin-top: 40px;
+}
+.guide div span{
+	text-align: center;
+	display: block;
+    font-size: 14px;
+    color: #323232;
+    height: 36px;
+    line-height: 36px;
+}
+.guide div li{
+	text-align: justify;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+}
+.guide div li a{
+	color:gray;
+}
+.guide div li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+/**/
+
+/*结尾*/
+.joinus{
+	border-top: 1px solid gainsboro;
+	width: 100%;
+}
+.footer-copyright{
+	width:1100px;
+	margin: auto;
+margin-top: 20px;
+}
+.footer-copyright a{
+	padding:20px;
+	color: #8c8c8c;
+    font-size: 12px;
+}
+.footer-copyright span{
+	color: #8c8c8c;
+    font-size: 12px;
+}
+.footer-copyright a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.joinus .footer2 p{
+	text-align: center;
+	color: #8c8c8c;
+    font-size: 14px;
+    padding:10px 0;
+}
+.joinus .footer2 span{
+	padding: 0 5px;
+}
+.footer-box{
+	width:780px;
+	margin:30px auto;
+	margin-bottom: 60px;
+}
+.footer-box img{
+	padding-right: 10px;
 }
